@@ -1,0 +1,69 @@
+# ===== Python 通用 =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+MANIFEST
+*.egg
+.Python
+env/
+venv/
+.venv/
+.conda/
+
+# ===== 自带 Python 便携运行时（整目录 ~500MB，不入库）=====
+runtime/
+
+# ===== 大型模型权重（不入库，README 说明下载来源）=====
+# 说明：rmvpe.pt（~173MB）等大文件均走"下载获取"，不在仓库里。
+#       各文件的下载来源见 README「模型文件获取」一节。
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+
+# ===== MSST 外部回退模型（本地缓存，不入库）=====
+msst/pretrain/*.ckpt
+msst/pretrain/*.yaml
+
+# ===== UVR5 自动下载的分离模型（首次运行自动拉取）=====
+uvr5/uvr_model/*.pth
+uvr5/uvr_model/*.json
+
+# ===== 运行时输出 / 音频产物 =====
+output/
+temp/
+rvc_*.wav
+audio_rvc.wav
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# ===== Gradio 缓存 =====
+.gradio/
+
+# ===== 日志 =====
+*.log
+logs/
+
+# ===== IDE / 系统 =====
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 其它 =====
+*.bak
+*.tmp
+*.cache
+.cache/
+nohup.out

@@ -1,0 +1,33 @@
+# ===== 核心深度学习框架 =====
+# GPU 版（CUDA 11.8）：
+#   pip install torch==2.7.1+cu118 torchaudio==2.7.1+cu118 torchvision==0.22.1+cu118 \
+#       --index-url https://download.pytorch.org/whl/cu118
+# CPU 版：
+#   pip install torch torchaudio torchvision
+#
+# 若已装 torch，可跳过本节直接装下面依赖。
+# torch>=2.0.0
+# torchaudio>=2.0.0
+# torchvision>=0.15.0
+
+# ===== 音频处理 =====
+librosa>=0.10.0
+numpy
+resampy
+soundfile
+pydub
+pedalboard
+
+# ===== WebUI / 服务 =====
+gradio
+requests
+tqdm
+
+# ===== MSST BS-Roformer 分离（串联管线 / 单模型推理）=====
+omegaconf>=2.1.0
+einops==0.8.2
+rotary-embedding-torch==0.6.5
+
+# ===== 可选：GPU 加速（按需，CPU 用户可跳过）=====
+# onnxruntime-gpu
+# audio-separator[gpu]
