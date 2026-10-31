@@ -6,8 +6,8 @@
 
 ---
 ## 部署方法
-- **整合包下载**：[RVCSVC-API-Pro](https://1822487561.share.123pan.cn/123pan/0pVJjv-6dE9H) 
-- **依赖的模型**：[RVC-Project](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) 运行RVC模型中`go-webui.bat`再启动本项目中`启动 rvcapi.bat`
+- **整合包下载**：[Hugging Face](https://1822487561.share.123pan.cn/123pan/0pVJjv-6dE9H) [ViKiNG FiLE](https://vikingfile.com/f/bycbEh5I2s#RVCSVC - API) [123pan](https://1822487561.share.123pan.cn/123pan/0pVJjv-6dE9H) **下载**后解压运行`**启动** rvcapi.bat`即可使用。
+- **依赖的模型**：[RVC-Project](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) **注意：**运行RVC模型中`go-webui.bat`再启动本项目中`**启动** rvcapi.bat`。
 ## 目录
 
 - [特性](#-特性)
